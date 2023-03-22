@@ -92,7 +92,6 @@ def sep_notes():
 ########################## TOTAL NUMBER OF NOTES WITHDRAW  ####################################
 def total_withdraw():
     a=(tt, fh, two_h, hun, fif, twenty, ten, five, two, one)
-    #print(a)
 
     total=0
     for ele in a:
@@ -144,7 +143,6 @@ def deposit():
     for i in range (n):
         current= int(input("PLEASE INSERT THE NOTE HERE: "))
         l.append(current)
-    #print(l)
     count={}
     for i in l:
         if i in count:
@@ -153,10 +151,8 @@ def deposit():
             count[i]=1
     print("*************************************")
     print()
-    #print("TOTAL NUMBER OF NOTES DEPOSITED inside deposit function: ")
     for key, values in count.items():
         print("Number of ", key, "Rupee notes:", values)
-    #print("dictionary count", count)
     sum_deposit= sum_deposited(l)
     total_deposit= total_deposited(count)
     
@@ -222,52 +218,7 @@ def check_pin():
         return True
     else:
         return False
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
 #************ MAIN FUNCTION  ****************

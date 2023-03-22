@@ -223,19 +223,6 @@ def check_pin():
 
 #************ MAIN FUNCTION  ****************
 
-
-
-#####################################  INPUT  ###################################################
-# print()
-# print("PRESS 1 IF YOU WANT TO WITHDRAW")
-# print("PRESS 2 IF YOU WANT TO DEPOSIT")
-# print("PRESS 3 IF YOU WANT TO CHANGE THE NUMBER LINKED TO YOUR BANK ACCOUNT")
-# print("PRESS 4 IF YOU WANT TO CHECK YOUR BANK BALANCE")
-# print()
-# choose= int(input("ENTER YOUR CHOICE: "))
-# print()
-
-
 ################################# CALLING FUNCTION ############################################## 
 
 #~~~~~~~~~~~ CALLING WITHDRAWL  ~~~~~~~~~~~~~~~
@@ -254,7 +241,6 @@ if choose==1:
             sep_notes()
             print("*************************************")
             total_withdraw()
-            #print("*************************************")
             greeting()
         else:
             print()
@@ -286,7 +272,6 @@ elif choose==2:
         print("*** INVALID PIN ***")
     
     
-    #sum()- call sum inside deposit and print sum as well
     greeting()
 #~~~~~~~~~~~~  CALLING CHANGE NUMBER  ~~~~~~~~~~~~~
 elif choose==3:
@@ -302,8 +287,3 @@ elif choose==5:
     change_pin()
     greeting()
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# else:
-#     print("* ERROR! YOUR INPUT IS INVALID *")
-#     print("* PLEASE PROCEED FROM BEGINNING *")
-#     greeting()

@@ -52,9 +52,7 @@ def sum_deposited(li):
     for i in li:
         s=s+i
     print()
-    #print("*************************************")
-    #print("TOTAL AMOUNT DEPOSITED: ",s)
-    return s
+        return s
 
 #####################################  TOTAL NUMBER OF NOTES DEPOSITED  ###############################
 def total_deposited(d):
